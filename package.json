@@ -1,0 +1,27 @@
+{
+    "name": "@ridetracker/avatarassets",
+    "description": "A package to manage the source assets for the avatar service.",
+    "version": "0.9.0",
+    "author": "Nora Söderlund",
+    "license": "UNLICENSED",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "npm run build && node dist/index.js",
+        "test": "npx vitest run"
+    },
+    "devDependencies": {
+        "@ridetracker/avatarclient": "^0.9.1",
+        "dotenv": "^16.0.3",
+        "typescript": "^5.0.4",
+        "vitest": "^0.31.1"
+    },
+    "homepage": "https://github.com/RideTracker/AvatarAssets#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RideTracker/AvatarAssets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/RideTracker/AvatarAssets/issues"
+    }
+}

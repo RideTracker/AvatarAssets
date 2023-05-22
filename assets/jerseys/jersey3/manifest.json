@@ -1,0 +1,22 @@
+{
+    "type": "jersey",
+
+    "colors": [
+        {
+            "type": "primary",
+            "defaultColor": "#414142"
+        }
+    ],
+
+    "layers": [
+        {
+            "index": 1,
+            "colorType": "primary"
+        },
+        
+        {
+            "index": 3,
+            "colorType": "primary"
+        }
+    ]
+}

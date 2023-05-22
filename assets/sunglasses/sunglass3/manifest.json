@@ -1,0 +1,16 @@
+{
+    "type": "sunglass",
+
+    "colors": [
+        {
+            "type": "visor"
+        }
+    ],
+
+    "layers": [
+        {
+            "index": 1,
+            "colorType": "visor"
+        }
+    ]
+}

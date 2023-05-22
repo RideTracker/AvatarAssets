@@ -1,0 +1,37 @@
+{
+    "type": "jersey",
+
+    "colors": [
+        {
+            "type": "primary",
+            "defaultColor": "#294C3F"
+        },
+
+        {
+            "type": "secondary",
+            "defaultColor": "#ED1C24"
+        }
+    ],
+
+    "layers": [
+        {
+            "index": 2,
+            "colorType": "primary"
+        },
+        
+        {
+            "index": 3,
+            "colorType": "secondary"
+        },
+        
+        {
+            "index": 4,
+            "colorType": "primary"
+        },
+        
+        {
+            "index": 6,
+            "colorType": "primary"
+        }
+    ]
+}
