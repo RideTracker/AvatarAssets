@@ -7,11 +7,11 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "npx tsc",
-        "start": "npm run build && node dist/index.js",
+        "start": "npm run build && node dist/index.js -all",
         "test": "npx vitest run"
     },
     "devDependencies": {
-        "@ridetracker/avatarclient": "^0.9.1",
+        "@ridetracker/avatarclient": "^0.9.4",
         "dotenv": "^16.0.3",
         "typescript": "^5.0.4",
         "vitest": "^0.31.1"
